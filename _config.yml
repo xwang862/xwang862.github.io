@@ -1,3 +1,5 @@
 name: Xiao Wang's Personal Site
 # build settings
 markdown: kramdown
+# site settings
+permalink: /blog/:year/:month/:day/:title
