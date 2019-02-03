@@ -9,7 +9,7 @@ This blog describes how you can set up a MacBook Pro 2017 for a development envi
 
 Experienced Mac users or programmers may find this document trivial. But I will be happy if it can benefit a few junior fellows in my field. While **Migration Assistant** makes it easier to migrate your environments and files, I decide to set up my Mac from scratch because my previous one has too many messed-up settings. Let's get started!  
 
-## Useful Links
+# Useful Links
 
 There are a lot of useful resources about setting up a development environment on macOS. I personally benefitted the most from [this extensive guide](https://github.com/nicolashery/mac-dev-setup). Here are some links:
 
@@ -17,7 +17,7 @@ There are a lot of useful resources about setting up a development environment o
 
 * [Awesome Mac](https://github.com/jaywcjlove/awesome-mac)
 
-## Know Your Machine
+# Know Your Machine
 
 First things include choosing your language, logging in with Apple ID, and setting preferences (e.g. trackpad, Touch ID, internet accounts). Easy peasy. 
 
@@ -30,7 +30,7 @@ Before starting to install a bunch of packages, you can check your laptop config
 * macOS version, decide whether you need an upgrade
         
 
-## Install Applications (download-and-double-click)
+# Install Applications (download-and-double-click)
 
 Browser 
 
@@ -86,7 +86,7 @@ Browser
 
 * MacDown
 
-## Development Tools
+# Development Tools
 
 Anaconda3 (currently with python 3.7)
 
@@ -97,18 +97,18 @@ Anaconda3 (currently with python 3.7)
 * There is a Anaconda-bundled Python IDE called Spyder, works well for me
     
 * Use conda to install psi4: `conda install psi4 psi4-rt python=3.6 -c psi4`
-       
-    * Note that python3.7 is downgraded to python3.6
-
+	
+	* Note that python3.7 is downgraded to python3.6
+    
 * Use conda to install pyscf: `conda install -c pyscf pyscf`
        
-    * Note that libxc library is missing (lib: libxc.4.dylib)
-        
-    * Using `conda install -c pyscf libxc`, or `port install libxc`, or `port install libxc4` didn’t provide the libxc library either
-        
-    * Finally, using `pip install pyscf` solved the problem, since it correctly installed libxc.4.lib library.
-            
-    * Note that this is Anaconda-bundled pip
+	* Note that libxc library is missing (lib: libxc.4.dylib)
+	
+	* Using `conda install -c pyscf libxc`, or `port install libxc`, or `port install libxc4` didn’t provide the libxc library either
+	
+	* Finally, using `pip install pyscf` solved the problem, since it correctly installed libxc.4.lib library.
+	
+	* Note that this is Anaconda-bundled pip
 
 Let’s try Macports this time as our package manager. The reason is that there are several chemistry/physics softwares, such as XCrysDen, that can be easily installed using port. If we don’t like Macports in the end, just uninstall it (https://guide.macports.org/chunked/installing.macports.uninstalling.html). Install some developers’ packages
 
@@ -150,7 +150,7 @@ Notes my python commands are:
 	
 * `python2 -> /opt/local/bin/python2.7`
 
-Other developer tools:
+# Other developer tools:
 
 * oh-my-zsh
         
