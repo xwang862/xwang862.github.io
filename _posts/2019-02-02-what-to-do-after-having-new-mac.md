@@ -97,23 +97,9 @@ Anaconda3 (currently with python 3.7)
 * There is a Anaconda-bundled Python IDE called Spyder, works well for me
     
 * Use conda to install psi4: `conda install psi4 psi4-rt python=3.6 -c psi4`
-
-	- Note that python3.7 is downgraded to python3.6
-
-* Use conda to install pyscf: `conda install -c pyscf pyscf`
        
-	* Note that libxc library is missing (lib: libxc.4.dylib)
+	* Note that python3.7 is downgraded to python3.6
 	
-	* Using `conda install -c pyscf libxc`, or `port install libxc`, or `port install libxc4` didn’t provide the libxc library either
-	
-	* Finally, using `pip install pyscf` solved the problem, since it correctly installed libxc.4.lib library.
-	
-	* Note that this is Anaconda-bundled pip
-
-* Use conda to install psi4: `conda install psi4 psi4-rt python=3.6 -c psi4`
-
-	- Note that python3.7 is downgraded to python3.6
-
 * Use conda to install pyscf: `conda install -c pyscf pyscf`
        
 	* Note that libxc library is missing (lib: libxc.4.dylib)
