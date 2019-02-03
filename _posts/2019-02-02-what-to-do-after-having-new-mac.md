@@ -24,7 +24,7 @@ First things include choosing your language, logging in with Apple ID, and setti
 Before starting to install a bunch of packages, you can check your laptop configurations in **About This Mac -> Overview**:
     
 * Processor, memory, graphics, storage
-        
+	
 	* Tip: Google your MacBook release time and processor, check for technical details, such as number of cores, base frequency, GPU-support, instruction set, etc. It's good to know such information when you are 
     
 * macOS version, decide whether you need an upgrade
@@ -36,11 +36,11 @@ Browser
 
 * Google Chrome
         
-    * Sign in with gmail
+	* Sign in with gmail
     
 * LastPass
-        
-    * Sign in with your business account, and link to your personal account
+	
+	* Sign in with your business account, and link to your personal account
     
 * Mathematica
     
@@ -49,7 +49,7 @@ Browser
 * Xcode and Xcode Command Line Tools (just Google it: how to install Xcode Command Line Tools)
     
 * Zotero
-        
+	
 	* Transfer data from the old laptop: copy the whole Zotero folder (can be found in **Zotero->Preferences->Advanced->Files** and **Folders->Data Directory Location**) to somewhere in in the new laptop, and change the data directory location of new Zotero 
     
 * Slack
