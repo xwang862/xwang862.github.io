@@ -99,7 +99,7 @@ Anaconda3 (currently with python 3.7)
 * Use conda to install psi4: `conda install psi4 psi4-rt python=3.6 -c psi4`
        
 	* Note that python3.7 is downgraded to python3.6
-	
+
 * Use conda to install pyscf: `conda install -c pyscf pyscf`
        
 	* Note that libxc library is missing (lib: libxc.4.dylib)
