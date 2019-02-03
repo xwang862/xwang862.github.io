@@ -1,13 +1,23 @@
 # site settings
-title: Xiao Wang Personal Website
-description:
+title: Xiao Wang's Personal Website
+email: xiaowang314159@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This site will serve as my personal website. My bio, resume, thoughts,
+  derivations, notes, etc. will be uploaded here. 
 baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /blog/:year/:month/:day/:title
 
 name: Xiao Wang's Personal Site
+
+# accounts
+twitter_username: https://twitter.com/xwang862
+github_username: https://github.com/xwang862
+
 # build settings
 markdown: kramdown
-theme: jekyll-theme-leap-day
-# site settings
-permalink: /blog/:year/:month/:day/:title
-#plugins:
-#  - jekyll-sitemap
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
