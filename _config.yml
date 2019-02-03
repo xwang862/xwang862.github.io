@@ -4,6 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 name: Xiao Wang's Personal Site
 # build settings
 markdown: kramdown
+theme: jekyll-theme-leap-day
 # site settings
 permalink: /blog/:year/:month/:day/:title
 plugins:
