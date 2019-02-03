@@ -35,9 +35,9 @@ Before starting to install a bunch of packages, you can check your laptop config
 Browser 
 
 * Google Chrome
-
-	* Sign in with gmail
     
+    * Sign in with gmail
+
 * LastPass
 	
 	* Sign in with your business account, and link to your personal account
